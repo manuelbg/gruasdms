@@ -1,0 +1,17 @@
+{
+  "name": "gruasdms",
+  "version": "0.0.0",
+  "homepage": "http://gruasdms.com",
+  "authors": [
+    "Manuel BG <manuelbg@gmail.com>"
+  ],
+  "description": "Gruas DMS",
+  "devDependencies": {
+    "bourbon": "~4.2.4",
+    "neat": "~1.7.2"
+  },
+  "dependencies": {
+    "font-awesome": "fontawesome#~4.4.0",
+    "jQuery.mmenu": "~5.2"
+  }
+}

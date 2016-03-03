@@ -1,0 +1,15 @@
+nav {
+  background: $dark-gray;
+  @include outer-container();
+  text-align: center;
+  @include media($tablet) {
+    text-align: left;
+  }
+  #logo {
+    @include sprite($logo);
+  }
+}
+main {
+  @include outer-container();
+  background: $dark-gray;
+}

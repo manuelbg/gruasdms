@@ -1,0 +1,15 @@
+@mixin button($color-bg, $color-font) {
+  font-family: DIN;
+  font-weight: normal;
+  font-size: $base-font-size;
+  text-decoration: none;
+  background: $color-bg;
+  color: $color-font;
+  padding: 15px 20px;
+  border-radius:(em(25));
+}
+
+@mixin omega-reset($nth) {
+  &:nth-child(#{$nth}) { margin-right: flex-gutter(); }
+  &:nth-child(#{$nth}+1) { clear: none }
+}
