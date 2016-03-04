@@ -40,7 +40,10 @@ main {
   .phone {
     display: inline-block;
     margin: 20px 0px;
-    font-size: 48px;
+    font-size: 38px;
+    @include media($tablet) {
+      font-size: 48px;
+    }
     font-weight: bold;
     color: $white;
   }
