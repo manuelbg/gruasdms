@@ -1,0 +1,59 @@
+body {
+  color: #cccccc;
+}
+nav {
+  padding: 4px 110px;
+  background: #696969;
+  @include outer-container();
+  text-align: center;
+  @include media($tablet) {
+    text-align: left;
+  }
+}
+main {
+  @include outer-container();
+  header {
+    text-align: center;
+  }
+  background: #696969;
+  h1 {
+    font-weight: bold;
+    color: $white;
+  }
+  p {
+    color: #cccccc;
+  }
+  section {
+    margin: 10px;
+    @include media($tablet) {
+      margin: 10px 110px;
+    }
+  }
+  section#contact {
+    text-align: center;
+    h2 {
+      margin: 40px 0 0 0;
+      font-weight: bold;
+      color: $white;
+    }
+  }
+  .phone {
+    display: inline-block;
+    margin: 20px 0px;
+    font-size: 48px;
+    font-weight: bold;
+    color: $white;
+  }
+}
+footer {
+  @include outer-container();
+  text-align: center;
+  background: #696969;
+  hr {
+    margin: 0;
+  }
+  p {
+    display: inline-block;
+    padding: 14px 0 6px 0;
+  }
+}

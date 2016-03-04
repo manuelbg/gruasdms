@@ -4,12 +4,12 @@
 $column: em(100);
 $gutter: em(20);
 $grid-columns: 12;
-$max-width: em(1400);
+$max-width: em(960);
 
 // Neat Breakpoints
 $mobile-screen: em(480);
 $tablet-screen: em(768);
-$desktop-screen: em(1024);
+$desktop-screen: em(960);
 $x-desktop-screen: em(1400);
 
 $mobile: new-breakpoint(min-width $mobile-screen 4);
