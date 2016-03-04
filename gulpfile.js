@@ -20,7 +20,7 @@ var mainBowerFiles = require('main-bower-files');
 var sourcemaps = require('gulp-sourcemaps');
 
 var DEST = './assets/';
-var SRC = './assets/src';
+var SRC = './src';
 
 var onError = function(err) {
   notify.onError({
@@ -54,7 +54,7 @@ gulp.task('styles', function() {
       errorHandler: onError
     }))
     .pipe(
-      gulp.src('./assets/src/sass/screen.scss')
+      gulp.src('./src/sass/screen.scss')
       .pipe(globbing({
         extensions: ['.scss']
       }))
